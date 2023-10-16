@@ -1,1 +1,1 @@
-# Medical Expertise (MedEx) Unveiled: How FOL-Based Reasoning Elevates Medical Question-Answering
+# MedEx: Enhancing Medical Question-Answering with First-Order Logic based Reasoning and Knowledge Injection
