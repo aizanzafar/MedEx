@@ -5,14 +5,14 @@ This README file provides step-by-step instructions for reproducing the MedEx ex
 
 ### 1. KG Construction Using QUICK-UMLS
 To convert the dataset into required format, follow these steps:
-1. Run the script located at `Data/preprocess_kg/final_preprocess.py`.
+1. Run the script located at `code/preprocess_kg/final_preprocess.py`.
 2. Save the output file as `mashqa_train_data.json`.
 
 
 ### 2. Integrate RULE with KG Data
 To integrate rules with the MashQA KG train data, follow these steps:
-1. Run the script located at `Data/Rule_integrate/cosine_triple.py`. This will save the file as `mashqa_data_withRule`.
-2. Run the script `Data/data_preparation.py` to create a file named `MashQA_train_data_with_rule.json`.
+1. Run the script located at `code/Rule_integrate/cosine_triple.py`. This will save the file as `mashqa_data_withRule`.
+2. Run the script `code/data_preparation.py` to create a file named `MashQA_train_data_with_rule.json`.
 
 ### 3. Data preparation
 1. Run the script located at `code/ExtractiveQA/preprocess/fol_preprocess.py`.
